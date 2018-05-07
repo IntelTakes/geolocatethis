@@ -68,7 +68,7 @@ print(welcome_text)
 print()
 
 
-print('From which point do you want start searching?')
+print('From which point do you want to start searching?')
 lat = input('Latitude: ')
 lon = input('Longtitude: ')
 center_point = ('{},{}'.format(lat,lon))
