@@ -69,10 +69,10 @@ print()
 
 
 print('From which point do you want start searching?')
-lat = '52.457071' #input('Latitude: ')
-lon = '13.506411' #input('Longtitude: ')
+lat = input('Latitude: ')
+lon = input('Longtitude: ')
 center_point = ('{},{}'.format(lat,lon))
-radius = '3000' #input("Search radius from above given coordinates [m]: ")
+radius = input("Search radius from above given coordinates [m]: ")
 
 landmark1_keyword = input("Keyword for landmark no.1: ")
 
