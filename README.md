@@ -14,4 +14,16 @@ Idea came to life during geolocation of a picture taken in unknown location. I t
 <b>Category</b> (type of place) - Restricts the results to places matching the specified type. Only one type may be specified (if more than one type is provided, all types following the first entry are ignored). See the list of <a href='https://developers.google.com/places/web-service/supported_types'> allowed categories </a>.
 
 <b>Distance</b> - Number (in metres) defines distance beetwen to searched places (landmarks). 
+<br>
+<h3>HOW TO RUN IT?</h3>
+Min. required python version: 3
+
+Copy all files (including 'assets' folder) to your disk. Remeber to paste your API Google Map key into 'assets/auth_key.py' file. 
+
+Run script with command: <i>python find2places.py</i>
+<br>
+<h3> EXAMPLE </h3>
+
+Lets assume you need to geolocate this photo: 
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Apotheke_an_der_Alten_Schule_in_Berlin-Adlershof.JPG/640px-Apotheke_an_der_Alten_Schule_in_Berlin-Adlershof.JPG'>
 
