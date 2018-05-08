@@ -48,7 +48,7 @@ def check_primary_and_secondary():
                         temp_lat = result['geometry']['location']['lat']
                         temp_lon = result['geometry']['location']['lng']
                         temp_location = '{},{}'.format(temp_lat,temp_lon)
-                        secondary_landmark_results = send_request(temp_location, distance, landmark2_type, landmark1_keyword, blank_pagetoken)
+                        secondary_landmark_results = send_request(temp_location, distance, landmark2_type, landmark2_keyword, blank_pagetoken)
                         if 'ZERO_RESULTS' not in secondary_landmark_results['status']:
                                 print ("Found match at {} (location: {})".format(temp_name, temp_location))
                                 match_count += 1
