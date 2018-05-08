@@ -25,6 +25,7 @@ Run script with command: <i>python find2places.py</i>
 
 After completion, program prints out coordinates and names of primary landmarks that met previously given criteria.
 <br>
+<br>
 <h3>USE EXAMPLE:</h3>
 Let's assume we need to geolocate this photo: 
 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Apotheke_an_der_Alten_Schule_in_Berlin-Adlershof.JPG/640px-Apotheke_an_der_Alten_Schule_in_Berlin-Adlershof.JPG'>
