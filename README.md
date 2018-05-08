@@ -24,27 +24,25 @@ Copy all files (including 'assets' folder) to your disk. Remeber to paste your A
 Run script with command: <i>python find2places.py</i>
 
 After completion, program prints out coordinates and names of primary landmarks that met previously given criteria.
-
-<br>
 <br>
 <h3>USE EXAMPLE:</h3>
-
 Let's assume we need to geolocate this photo: 
 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Apotheke_an_der_Alten_Schule_in_Berlin-Adlershof.JPG/640px-Apotheke_an_der_Alten_Schule_in_Berlin-Adlershof.JPG'>
 
-All we know it was taken somewhere in <a href='https://www.google.pl/maps/@52.4139645,13.5292603,13z' southern Berlin near Schonefeld</a>.
+All we know it was taken somewhere in <a href='https://www.google.pl/maps/@52.4139645,13.5292603,13z'> southern Berlin near Schonefeld</a>.
 On the photo, there is a pharmacy and a small shop with Deutsche Post sing above the door. That is enough information to run program.
 
 There are 4 parts of the city where photo potentially could have been taken: Rudow, Adlershof, Altglienicke, and Bohnsdorf. The best place to place marker for center point would be somewhere around State Park (52.415430, 13.526943). 
 
-Next, we should type in following data:
-Radius = 8000m (distance between the center point and edge of every adjacent neighborhood).
-A keyword for landmark no. 1 = 'pharmacy' (best to use a word in English as this is the main language of Google Maps database)
-Category for landmark no. 1 = 'pharmacy' (limit search only to actual pharmacies)
-A keyword for landmark no. 1 = 'post' (you can type in multiple keywords, however, in this case, is better to give a more general description as we don't know how this shop is described in google maps).
-Category for landmark no. 1 = 'store' (it will limit search only to stores with 'post' related keyword)
-Distance = 10m (rough estimate from photo)
-
+Next, we should type in following data:<br>
+<ul>
+  <li>Radius = 8000m (distance between the center point and edge of every adjacent neighborhood).</li>
+  <li>A keyword for landmark no. 1 = 'pharmacy' (best to use a word in English as this is the main language of Google Maps database)</li>
+  <li>Category for landmark no. 1 = 'pharmacy' (limit search only to actual pharmacies)</li>
+  <li>A keyword for landmark no. 1 = 'post' (you can type in multiple keywords, however, in this case, is better to give a more general description as we don't know how this shop is described in google maps).</li>
+  <li>Category for landmark no. 1 = 'store' (it will limit search only to stores with 'post' related keyword)</li>
+  <li>Distance = 10m (rough estimate from photo)</li>
+</ul>
 Result gives 20 positive matches. In the same area, Google Map search shows over 60 pharmacies. It means three times less work to do on google street view.
 
 ...and yes, our pharmacy is in results ;)
