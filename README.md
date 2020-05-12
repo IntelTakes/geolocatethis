@@ -1,3 +1,4 @@
+### *** DEPRECATED ***
 # geolocatethis
 
 Idea came to life during geolocation of a picture taken in unknown location. I thought it would be very helpful to ask google maps to find "all restaurants in area with maximum distance of 30 metres from newspaper kiosk". So I've written simple python script that allows querying Google Maps API for 2 specific places within precise distance from each other in given area.
